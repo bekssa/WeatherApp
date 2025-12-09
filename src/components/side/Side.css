@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Science+Gothic:wght@100..900&display=swap');
+
+input {
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.2px solid black;
+    color: black;
+    margin-left: 5px;
+    margin-top:20px;
+    padding: 2px 5px;
+    outline: none;
+    font-size: 16px;
+}
+input::placeholder {
+    color: black;
+}
+.side{
+        margin-left: 10px;
+        background-color: gray;
+        opacity: 0.3;
+        border-radius: 30px;
+        padding: 20px;
+    }
+img {
+    filter: drop-shadow(0 0 10px rgba(0,0,0,2));
+    margin: 150px 80px;
+    max-width: 150px;
+    max-height: 150px;
+}
+.location{
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px;
+}

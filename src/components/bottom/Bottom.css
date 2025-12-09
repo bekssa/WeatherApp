@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Science+Gothic:wght@100..900&display=swap');
+
+
+.weekly-forecast {
+    display: flex;
+    gap: 12px;
+    flex-wrap: nowrap;
+}
+
+.forecast-day {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 8px;
+    width: 140px;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.forecast-day.today {
+    border: 2px solid black;
+    font-weight: bold;
+}
+

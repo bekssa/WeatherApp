@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Science+Gothic:wght@100..900&display=swap');
+
+h2{
+    font-size: 4rem;
+    font-family: 'Science Gothic', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}

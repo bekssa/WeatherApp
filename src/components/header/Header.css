@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Science+Gothic:wght@100..900&display=swap');
+
+
+.weather-app {
+    height:150px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header button{
+    cursor: pointer;
+    width:auto;
+    height: 20px;
+    border-radius: 17%;
+    background: none;
+}
+header h1{
+    font-size:30px;
+    font-family: 'Merriweather', cursive;
+}
