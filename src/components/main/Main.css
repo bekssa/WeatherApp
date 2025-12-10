@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 1fr;
-    max-height: 100vh;
+    min-height: 100vh;
     gap: 60px;
 }
 
@@ -20,5 +20,6 @@ aside {
 }
 
 .bottom-content {
-
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }

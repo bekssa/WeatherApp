@@ -1,36 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Science+Gothic:wght@100..900&display=swap');
 
+.side {
+    margin-left: 10px;
+    background-color: rgba(128,128,128,0.3);
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
 input {
-    width: 100%;
+    box-sizing: border-box;
     font-family: 'Merriweather', serif;
     background-color: transparent;
     border: none;
     border-bottom: 0.2px solid black;
     color: black;
-    margin-left: 5px;
-    margin-top:20px;
-    padding: 2px 5px;
-    outline: none;
+    padding: 5px 10px;
     font-size: 16px;
+    outline: none;
 }
+
 input::placeholder {
     color: black;
 }
-.side{
-        margin-left: 10px;
-        background-color: gray;
-        opacity: 0.3;
-        border-radius: 30px;
-        padding: 20px;
-    }
+
+.list {
+    background:none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.item {
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.item:hover {
+    background-color: rgba(128,128,128,0.3);
+}
+
 img {
-    filter: drop-shadow(0 0 10px rgba(0,0,0,2));
-    margin: 150px 80px;
+    opacity: 0.7;
     max-width: 150px;
     max-height: 150px;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,2));
 }
-.location{
+
+.location {
     background-color: black;
     border-radius: 30px;
-    padding: 5px;
+    padding: 5px 10px;
+    color: white;
 }

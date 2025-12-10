@@ -50,3 +50,10 @@ export interface WeatherApiResponse {
         forecastday: ForecastDay[];
     };
 }
+
+export interface WeatherApiCity {
+    id: number;
+    name: string;
+    region: string;
+    country: string;
+};
